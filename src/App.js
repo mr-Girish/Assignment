@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Demo from "./Components/Demo";
+import Demo1 from "./Components/Demo1";
+import FirstCard from "./Components/FirstCard";
+import SecondCard from "./Components/SecondCard";
+import ThirdCard from "./Components/ThirdCard";
+import Form from "./DeepakSir/Form";
+import NewForm from "./DeepakSir/NewForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+  {/* <Form/> */}
+  <NewForm/>
+
+    {/* <Demo1/> */}
+    {/* <Demo/> */}
+    
+        {/* for first Card s */}
+        {/* <FirstCard/> */}
+      {/* for second card */}
+        {/* <SecondCard/> */}
+      {/* for third card  */}
+      {/* <ThirdCard/> */}
+
+    </>
   );
 }
 
